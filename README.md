@@ -3,6 +3,10 @@
 Descriere:
 Acest proiect presupune realizarea unui joc pentru doi jucători, în care participanții își testează viteza de reacție pentru a obține cel mai mare scor. 
 Jocul incepe cand apesi pe butonul din mijloc pus de noi, dupa aceea fiecare jucător trebuie să apese rapid butonul care corespunde culorii afișate pe LED-ul RGB propriu. Scorurile ambilor jucători vor fi actualizate pe parcursul jocului. La final, jucătorul cu cel mai mare scor este declarat câștigător.
+Arduinoul master va fi cel care ține în memorie starea jocului (ex. punctajul fiecărui jucator, ledul care trebuie să fie aprins acum, etc.). 
+Arduino-ul slave va controla butoanele și ledurile, primind mesaje de la arduinoul master pentru a ști ce led să aprindă și trimițând înapoi mesaje despre butonul apăsat.
+
+Coleg de echipa: Pop Matei
 
 Componente:
 
